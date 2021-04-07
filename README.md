@@ -12,4 +12,14 @@ module.exports.Model = Model;
 module.exports.DataTypes = DataTypes;
 ```
 
-Now everytime you use sequelize calls in your jest tests it will use the mock instead.
+Now everytime you use sequelize calls in your jest tests it will use the mock instead. Don't forget to pass the file path to your json in the constructor:
+```
+const options = {
+  production: '<DB_URL>',
+  test: 'path/to/db.json',
+  ...
+};
+
+const sequelize = new Sequelize(options[process.env.NODE_ENV]);
+...
+```
