@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-json-mock",
+  "version": "1.0.0",
+  "description": "Simple json mock for sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaildu/sequelize-json-mock.git"
+  },
+  "keywords": [
+    "sequelize",
+    "json",
+    "mock",
+    "testing"
+  ],
+  "author": "Mihail Dunaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihaildu/sequelize-json-mock/issues"
+  },
+  "homepage": "https://github.com/mihaildu/sequelize-json-mock#readme"
+}
